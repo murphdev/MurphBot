@@ -1,0 +1,28 @@
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+build/*
+*/logs/*
+*/cache/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+
+# Composer
+composer.phar
+
+# Linux tmp
+*~
+
+# OSX & DreamWeaver
+.DS_Store
+_notes/
+
+.idea

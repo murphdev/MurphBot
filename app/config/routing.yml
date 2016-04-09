@@ -1,0 +1,5 @@
+murph_bot:
+    resource: "@MurphBotBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

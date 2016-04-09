@@ -1,0 +1,15 @@
+services:
+    murph.sendmessage:
+        class: Murph\BotBundle\Services\SendMessage
+    murph.fortune:
+        class: Murph\Command\Fortune
+        arguments: ['@service_container']
+    murph.help:
+        class: Murph\Command\Help
+        arguments: ['@service_container']
+    murph.start:
+        class: Murph\Command\Start
+        arguments: ['@service_container']
+    murph.thanks:
+        class: Murph\Command\Thanks
+        arguments: ['@service_container']
