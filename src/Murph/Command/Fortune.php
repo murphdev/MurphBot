@@ -7,7 +7,7 @@ use GuzzleHttp as Guzzle;
 
 class Fortune extends AbstractCommand
 {
-    const API = "http://www.murph.it/api/56e5b8092d9b356e5b8092d9f7/fortune/";
+    const API = "";
 
     private $arrayFortune;
 

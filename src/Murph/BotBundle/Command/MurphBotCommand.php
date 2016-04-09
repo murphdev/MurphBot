@@ -9,7 +9,7 @@ use GuzzleHttp as Guzzle;
 
 class MurphBotCommand extends ContainerAwareCommand
 {
-    const TOKEN = "191377208:AAHrcGYlNAsQmG8vkk_jIwWdHgl6T2yK4ds";
+    const TOKEN = "";
     const URL = "https://api.telegram.org/bot";
     const API_URL = self::URL . self::TOKEN . "/";
 
